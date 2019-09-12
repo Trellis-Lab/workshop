@@ -74,6 +74,14 @@ module.exports = {
       timeoutBlocks: 500,
       skipDryRun: false,
     },
+    matic: {
+      provider: function() {
+        return new HDWalletProvider("gesture rather obey video awake genuine patient base soon parrot upset lounge", 'https://testnet2.matic.network', 0,10)
+      },
+      network_id: 8995,
+      gas: 8000000,
+      gasPrice: 0,
+    }
   },
   compilers: {
     solc: {
